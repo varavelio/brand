@@ -18,7 +18,9 @@ The displacement of the central pillar naturally creates a negative-space **"V"*
 
 ### Geometry & Proportions
 
-The logo is constructed on a strict mathematical grid to maintain visual stability and crisp rendering across all sizes:
+The logo is constructed on a strict mathematical grid to maintain visual stability and crisp rendering across all sizes.
+
+<img alt="Varavel Logo Blueprint" src="./logo-blueprint.svg" width="600px"/>
 
 - **Proportions:** Each pillar maintains a 1:3 aspect ratio (`200px` width by `600px` height).
 - **Spacing:** The horizontal gap between pillars is exactly half the width of a single pillar (`100px`).
