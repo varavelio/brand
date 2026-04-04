@@ -38,5 +38,5 @@ By keeping the core identity neutral, we allow semantic colors (success greens, 
 
 ## Repository Structure
 
-- `/sources`: Original vector files (`.inkscape.svg`).
-- `/exports`: Production ready SVGs and PNGs, optimized for direct use including padded, high resolution PNGs (1280x1280 with a 640px safe zone) designed specifically for circular platform avatars.
+- `/src`: Original vector files (`.inkscape.svg`).
+- `/dist`: Production ready SVGs and PNGs, optimized for direct use including padded, high resolution PNGs (1280x1280 with a 640px safe zone) designed specifically for circular platform avatars.
