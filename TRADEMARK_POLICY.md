@@ -1,0 +1,1 @@
+We encourage the community to use the Varavel logo to show integration or support (e.g., 'Powered by Varavel' badges). However, you must use the official, unmodified assets provided in the /dist folder. You may not use the Varavel logo as your own company logo, avatar, or in any way that implies official endorsement without permission.
