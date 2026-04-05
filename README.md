@@ -38,6 +38,15 @@ Varavel uses a strict monochromatic base. The core brand assets (logo and typogr
 
 By keeping the core identity neutral, we allow semantic colors (success greens, error reds) and specific UI accents to guide the user's attention within our tools and dashboards without visual conflict.
 
+## Typography
+
+Varavel uses the **Geist** typeface family by **Vercel**, licensed under the **Open Font License (OFL 1.1)**, as the official brand font in the following formats:
+
+- **Sans Serif:** Geist
+- **Mono:** Geist Mono
+
+Source: https://github.com/vercel/geist-font
+
 ## Repository Structure
 
 - `/src`: Original vector files (`.inkscape.svg`).
