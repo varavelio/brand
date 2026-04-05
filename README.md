@@ -30,7 +30,7 @@ The logo is constructed on a strict mathematical grid to maintain visual stabili
 
 ### The "VA" Interaction
 
-In specific interactive contexts (such as UI navbars), hovering over the logo transitions the central pillar upward. This movement inverts the negative space to form an **"A"**, revealing the first two letters of the brand (**VA**ravel).
+In specific interactive contexts (such as UI navbars), hovering over the logo transitions the central pillar upward and the others downward. This movement inverts the negative space to form an **"A"**, revealing the first two letters of the brand (**VA**ravel).
 
 ## Color Strategy
 
