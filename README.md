@@ -1,7 +1,7 @@
 # Varavel Brand & Design Guidelines
 
 [![VDL Plugin](./dist/badges/project.svg)](https://varavel.com)
-[![Download Varavel assets](./docs/assets/download-button.svg)](https://github.com/varavelio/brand/releases/latest)
+[![Download Varavel assets](./docs/assets/download-button.svg)](https://github.com/varavelio/brand/archive/refs/heads/main.zip)
 
 Welcome to the official brand repository for **Varavel**.
 
