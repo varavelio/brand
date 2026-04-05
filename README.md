@@ -1,5 +1,7 @@
 # Varavel Brand & Design Guidelines
 
+[![VDL Plugin](./dist/badges/project.svg)](https://varavel.com)
+
 Welcome to the official brand repository for **Varavel**.
 
 This repository contains our visual identity assets, logo specifications, and design principles.
