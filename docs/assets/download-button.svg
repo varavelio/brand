@@ -1,0 +1,30 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="195"
+  height="32"
+  viewBox="0 0 195 32"
+>
+  <rect width="195" height="32" rx="6" fill="#000" />
+
+  <g
+    fill="none"
+    stroke="#fff"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M16 8v10" />
+    <path d="M12 14l4 4 4-4" />
+    <path d="M10 22h12" />
+  </g>
+
+  <text
+    x="38"
+    y="21"
+    fill="#fff"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+    font-size="12"
+    font-weight="600"
+    letter-spacing="0.2"
+  >Download Varavel assets</text>
+</svg>

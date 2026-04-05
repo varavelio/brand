@@ -1,6 +1,7 @@
 # Varavel Brand & Design Guidelines
 
 [![VDL Plugin](./dist/badges/project.svg)](https://varavel.com)
+[![Download Varavel assets](./docs/assets/download-button.svg)](https://github.com/varavelio/brand/releases/latest)
 
 Welcome to the official brand repository for **Varavel**.
 
@@ -22,7 +23,7 @@ The displacement of the central pillar naturally creates a negative-space **"V"*
 
 The logo is constructed on a strict mathematical grid to maintain visual stability and crisp rendering across all sizes.
 
-<img alt="Varavel Logo Blueprint" src="./logo-blueprint.svg" width="600px"/>
+<img alt="Varavel Logo Blueprint" src="./docs/assets/logo-blueprint.svg" width="600px"/>
 
 - **Proportions:** Each pillar maintains a 1:3 aspect ratio (`200px` width by `600px` height).
 - **Spacing:** The horizontal gap between pillars is exactly half the width of a single pillar (`100px`).
@@ -53,3 +54,4 @@ Source: https://github.com/vercel/geist-font
 
 - `/src`: Original vector files (`.inkscape.svg`).
 - `/dist`: Production ready SVGs and PNGs, optimized for direct use including padded, high resolution PNGs (1280x1280 with a 640px safe zone) designed specifically for circular platform avatars.
+- `/docs/assets`: README support visuals (documentation-only, not part of distributable brand assets).
