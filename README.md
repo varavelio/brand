@@ -1,6 +1,7 @@
 # Varavel Brand & Design Guidelines
 
-[![VDL Plugin](./dist/badges/project.svg)](https://varavel.com)
+[![A Varavel project](./dist/badges/project.svg)](https://varavel.com)
+[![Varavel UI](./docs/assets/go-to-ui.svg)](https://github.com/varavelio/ui)
 [![Download Varavel assets](./docs/assets/download-button.svg)](https://github.com/varavelio/brand/archive/refs/heads/main.zip)
 
 Welcome to the official brand repository for **Varavel**.
@@ -8,6 +9,8 @@ Welcome to the official brand repository for **Varavel**.
 This repository contains our visual identity assets, logo specifications, and design principles.
 
 Varavel's design language is focused on clarity, structure, and technical precision, reflecting the systems we build.
+
+To complement our visual identity, we provide a dedicated UI library for Svelte at [varavelio/ui](https://github.com/varavelio/ui), which implements our design principles into production-ready components.
 
 ## The Logo
 
@@ -27,7 +30,7 @@ The logo is constructed on a strict mathematical grid to maintain visual stabili
 
 - **Proportions:** Each pillar maintains a 1:3 aspect ratio (`200px` width by `600px` height).
 - **Spacing:** The horizontal gap between pillars is exactly half the width of a single pillar (`100px`).
-- **Displacement:** The central pillar is offset downwards by exactly one-third of its height, creating a consistent 45 degree angle for the inner "V".
+- **Displacement:** The central pillar is offset downwards by exactly one-third of its height, creating a natural 45 degree diagonal that connects the center of the central pillar to the centers of the side pillars, passing through their inner corners.
 - **Micro-Bevel:** A 2.6% border radius (`16px` on a `600px` pillar) is applied to all corners. This subtle rounding softens the edges for digital screens and anti aliasing, while maintaining a solid architectural silhouette.
 - **Footprint:** These measurements organically form a perfect 1:1 (`800px`) square bounding box, ensuring precise alignment in UI layouts and avatars.
 

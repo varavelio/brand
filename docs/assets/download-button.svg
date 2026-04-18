@@ -7,15 +7,16 @@
   <rect width="192" height="32" rx="6" fill="#000" />
 
   <g
+    transform="translate(10, 8) scale(0.66)"
     fill="none"
     stroke="#fff"
     stroke-width="2"
     stroke-linecap="round"
     stroke-linejoin="round"
   >
-    <path d="M16 8v10" />
-    <path d="M12 14l4 4 4-4" />
-    <path d="M10 22h12" />
+    <path d="M12 17V3" />
+    <path d="m6 11 6 6 6-6" />
+    <path d="M19 21H5" />
   </g>
 
   <text
