@@ -1,0 +1,31 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="105"
+  height="32"
+  viewBox="0 0 105 32"
+>
+  <rect width="105" height="32" rx="6" fill="#000" />
+
+  <g
+    transform="translate(10, 8) scale(0.66)"
+    fill="none"
+    stroke="#fff"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M12 17V3" />
+    <path d="m6 11 6 6 6-6" />
+    <path d="M19 21H5" />
+  </g>
+
+  <text
+    x="33"
+    y="21"
+    fill="#fff"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+    font-size="12"
+    font-weight="600"
+    letter-spacing="0.2"
+  >Download</text>
+</svg>
