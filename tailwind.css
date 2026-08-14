@@ -1,4 +1,5 @@
 /* Tailwind CSS configuration example */
+@import "tailwindcss";
 
 /*
   Tailwind Typography plugin used by rich text surfaces (`prose`).
