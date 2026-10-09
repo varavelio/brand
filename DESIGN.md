@@ -1,4 +1,9 @@
-# Varavel Design System Guidelines
+---
+name: varavel-design-guidelines
+description: Design, build, or improve a Varavel product. Use for websites, dashboards, apps, customer reports, proposals, briefs, benchmarks, comparisons, narrative data pages, pricing, and anything that need Varavel look and feel, Geist typography, data presentation, and dark/light themes
+---
+
+# Varavel Design Guidelines
 
 This document serves as the single source of truth for the visual, typographic, and architectural rules that define the Varavel brand.
 
@@ -23,37 +28,37 @@ Varavel relies on a **high-contrast, monochromatic base**. We do not use warm/co
 - **Primary Brand Colors:** Solid Black (`#000000`) and Solid White (`#FFFFFF`). Core logos and brand typography must always be rendered in one of these two extremes.
 - **Text & Content:**
   - **Primary (`content`):** Maximum contrast against the background.
-    - _Light Mode:_ Near Black (e.g., `#0a0a0a` / `neutral-950`)
-    - _Dark Mode:_ Near White (e.g., `#fafafa` / `neutral-50`)
+    - _Light Mode:_ Near Black (`#0a0a0a` / `neutral-950`)
+    - _Dark Mode:_ Near White (`#fafafa` / `neutral-50`)
   - **Secondary/Muted (`content-muted`):** Medium gray for metadata, descriptions, and helper text.
-    - _Light Mode:_ Medium-Dark Gray (e.g., `#737373` / `neutral-500`)
-    - _Dark Mode:_ Medium-Light Gray (e.g., `#a3a3a3` / `neutral-400`)
+    - _Light Mode:_ Medium-Dark Gray (`#737373` / `neutral-500`)
+    - _Dark Mode:_ Medium-Light Gray (`#a1a1a1` / `neutral-400`)
 
 ### Structural Base Layers (The Canvas)
 
 Regardless of the platform (light mode or dark mode), interfaces are built on a 4-tier elevation system:
 
 1. **Canvas (`base-100`):** The absolute background of the application/design.
-   - _Light Mode:_ Solid White (`#FFFFFF`)
-   - _Dark Mode:_ Solid Black (`#000000`)
+   - _Light Mode:_ Solid White (`#ffffff` / `white`)
+   - _Dark Mode:_ Solid Black (`#000000` / `black`)
 2. **Surface (`base-200`):** Primary structural containers (Sidebars, Cards, Panels). Slight contrast from the canvas.
-   - _Light Mode:_ Light Gray (e.g., `#f5f5f5` / `neutral-100`)
-   - _Dark Mode:_ Very Dark Gray (e.g., `#171717` / `neutral-900`)
+   - _Light Mode:_ Light Gray (`#f5f5f5` / `neutral-100`)
+   - _Dark Mode:_ Very Dark Gray (`#171717` / `neutral-900`)
 3. **Interactive (`base-300`):** Smaller UI elements, input fields, and hover states.
-   - _Light Mode:_ Lighter Gray (e.g., `#e5e5e5` / `neutral-200`)
-   - _Dark Mode:_ Dark Gray (e.g., `#262626` / `neutral-800`)
+   - _Light Mode:_ Lighter Gray (`#e5e5e5` / `neutral-200`)
+   - _Dark Mode:_ Dark Gray (`#262626` / `neutral-800`)
 4. **Structural/Borders (`base-400`):** The border color. Used strictly to define component limits and separate containers.
-   - _Light Mode:_ Gray (e.g., `#d4d4d4` / `neutral-300`)
-   - _Dark Mode:_ Medium-Dark Gray (e.g., `#404040` / `neutral-700`)
+   - _Light Mode:_ Gray (`#d4d4d4` / `neutral-300`)
+   - _Dark Mode:_ Medium-Dark Gray (`#404040` / `neutral-700`)
 
 ### Semantic Colors
 
 Color is used sparingly and only to convey state. They should pop vibrantly against the monochromatic canvas.
 
-- **Information / Action (`info`):** Blue (e.g., `#3b82f6` / `blue-500`). Used for links, active states, and primary actions.
-- **Error / Destructive (`error`):** Red (e.g., `#ef4444` / `red-500`). Used for critical alerts, deletion, and server errors.
-- **Success (`success`):** Emerald Green (e.g., `#10b981` / `emerald-500`). Used for healthy statuses and completion.
-- **Warning (`warning`):** Orange/Amber (e.g., `#f97316` / `orange-500`). Used for degradation and warnings.
+- **Information / Action (`info`):** Blue (`#2b7fff` / `blue-500`). Used for links, active states, and primary actions.
+- **Error / Destructive (`error`):** Red (`#fb2c36` / `red-500`). Used for critical alerts, deletion, and server errors.
+- **Success (`success`):** Emerald Green (`#00bc7d` / `emerald-500`). Used for healthy statuses and completion.
+- **Warning (`warning`):** Orange/Amber (`#ff6900` / `orange-500`). Used for degradation and warnings.
 
 ## 3. Typography
 
@@ -139,4 +144,4 @@ When creating anything for Varavel:
 
 Before applying these guidelines, verify if the project already has a dedicated style configuration file (e.g., Tailwind CSS, UnoCSS, or similar) with pre-defined tokens. Reusing an existing configuration eliminates duplicated effort and ensures consistency with the project's real output.
 
-A working example integrating this design system into Tailwind CSS is available at `./tailwind.css` (relative to this file). Use it as a reference when setting up a new project or adapting an existing one.
+A working example integrating this design system into Tailwind CSS is available at `./tailwind.css` (relative to this file). Use it as a reference when setting up a new project or adapting an existing one or as an inspiration when working with other technologies.
