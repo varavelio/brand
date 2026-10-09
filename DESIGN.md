@@ -145,3 +145,55 @@ When creating anything for Varavel:
 Before applying these guidelines, verify if the project already has a dedicated style configuration file (e.g., Tailwind CSS, UnoCSS, or similar) with pre-defined tokens. Reusing an existing configuration eliminates duplicated effort and ensures consistency with the project's real output.
 
 A working example integrating this design system into Tailwind CSS is available at `./tailwind.css` (relative to this file). Use it as a reference when setting up a new project or adapting an existing one or as an inspiration when working with other technologies.
+
+## 8. Brand Assets
+
+Use these CDN URLs for Varavel brand assets. They are official, versioned, and ready to embed directly.
+
+**Priority rule:** If a project has its own assets (logo, favicon, etc.), use those first. Fall back to these Varavel assets only when the project does not provide its own.
+
+**Format rule:** Prefer SVG whenever possible. Use PNG or ICO only when a rasterized image is required (legacy platforms, fixed-size slots, email clients).
+
+### Asset Types
+
+- **Logo:** Logo with no background and no padding. Use for headers, footers, and inline branding.
+- **Avatar:** Logo with a background and padding, meant for avatars or profile pictures. Note: it is not rounded.
+- **Icon:** Logo with a rounded background. Use for app icons and compact marks.
+- **Favicon:** Same as the icon but with less padding. Use for browser tabs and web manifests.
+
+### Variants
+
+Each asset ships in color variants:
+
+- **Dark:** For light backgrounds.
+- **Light:** For dark backgrounds.
+- `logo` ships as `black` and `white`.
+
+### Official URLs
+
+Logo:
+
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/logo-black.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/logo-black.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/logo-white.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/logo-white.svg
+
+Avatar:
+
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/avatar-dark.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/avatar-dark.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/avatar-light.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/avatar-light.svg
+
+Icon:
+
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/icon-dark.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/icon-dark.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/icon-light.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/icon-light.svg
+
+Favicon:
+
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/favicon.ico
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/favicon.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/favicon.svg
