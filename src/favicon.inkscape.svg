@@ -52,7 +52,7 @@
     />
   </sodipodi:namedview>
   <rect
-    style="fill:#000000;fill-opacity:1;stroke-width:12.25"
+    style="fill: #000000; fill-opacity: 1; stroke-width: 12.25"
     id="rect3"
     width="1000"
     height="1000"
@@ -68,7 +68,7 @@
     width="200"
     height="600"
     id="rect1-5-2"
-    style="fill:#ffffff;fill-opacity:1;stroke-width:12.9099"
+    style="fill: #ffffff; fill-opacity: 1; stroke-width: 12.9099"
     rx="16"
     ry="16"
     inkscape:label="right"
@@ -80,7 +80,7 @@
     width="200"
     height="600"
     id="rect1-5"
-    style="fill:#ffffff;fill-opacity:1;stroke-width:12.9099"
+    style="fill: #ffffff; fill-opacity: 1; stroke-width: 12.9099"
     rx="16"
     ry="16"
     inkscape:label="center"
@@ -92,7 +92,7 @@
     width="200"
     height="600"
     id="rect1"
-    style="fill:#ffffff;fill-opacity:1;stroke-width:12.9099"
+    style="fill: #ffffff; fill-opacity: 1; stroke-width: 12.9099"
     rx="16"
     ry="16"
     inkscape:label="left"
