@@ -8,11 +8,15 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "dprint.dprint"
+        "dprint.dprint",
+        "bradlc.vscode-tailwindcss"
       ],
       "settings": {
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "dprint.dprint"
+        "editor.defaultFormatter": "dprint.dprint",
+        "files.associations": {
+          "*.css": "tailwindcss"
+        }
       }
     }
   }
