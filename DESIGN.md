@@ -127,6 +127,21 @@ Whether building for Web, Desktop, or Mobile, the following interaction patterns
 - **Accessibility (Focus Rings):** All focusable elements must receive a high-contrast, monochromatic focus ring. Usability must never be sacrificed for aesthetics. Do not disable native focus indicators unless providing a custom, high-visibility alternative.
 - **Text Selection:** Highlighted text should invert cleanly (e.g., Background becomes `content` color, Text becomes `base-100` color), avoiding default system blues unless it is an explicit brand choice on that platform.
 
+## 7. Do's and Don'ts
+
+### Best Practices (Do's)
+
+- **Always provide a light/dark theme switch.** Verify first whether a mechanism already exists before building a new one.
+- **Use [Lucide](https://lucide.dev) when icons are needed.** Check whether Lucide is already installed in the project before adding it.
+- **Keep everything symmetric.** Ensure the information density is right for human consumption, and that boxes never grow in disproportionate or visually broken ways.
+- **Optimize information density for reading.** Adapt it to the type of information presented.
+
+### Things to Avoid (Don'ts)
+
+- **Don't overuse background layers (`base-200`, `base-300`).** Use them only when they genuinely add value to the design. Otherwise, keep the layout minimal and consistent.
+- **Don't overuse colored left/top borders on containers (divs, cards, panels — not quotes) to indicate state.** Prefer other indicators such as icons, backgrounds, or badges.
+- **Don't overuse semantic colors.** Apply them with intention, always adding value and direction: guide the user visually, but never flood the interface with state colors.
+
 ## Summary for Designers & Engineers
 
 When creating anything for Varavel:
@@ -140,13 +155,13 @@ When creating anything for Varavel:
 7. Design mobile-first, and unlock horizontal layouts only at `1024px`.
 8. When in doubt, remove it.
 
-## 7. Local Configuration & Tooling
+## 8. Local Configuration & Tooling
 
 Before applying these guidelines, verify if the project already has a dedicated style configuration file (e.g., Tailwind CSS, UnoCSS, or similar) with pre-defined tokens. Reusing an existing configuration eliminates duplicated effort and ensures consistency with the project's real output.
 
 A working example integrating this design system into Tailwind CSS is available at `./tailwind.css` (relative to this file). Use it as a reference when setting up a new project or adapting an existing one or as an inspiration when working with other technologies.
 
-## 8. Brand Assets
+## 9. Brand Assets
 
 Use these CDN URLs for Varavel brand assets. They are official, versioned, and ready to embed directly.
 
