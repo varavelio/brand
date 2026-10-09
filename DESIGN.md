@@ -135,10 +135,14 @@ Whether building for Web, Desktop, or Mobile, the following interaction patterns
 - **Use [Lucide](https://lucide.dev) when icons are needed.** Check whether Lucide is already installed in the project before adding it.
 - **Keep everything symmetric.** Ensure the information density is right for human consumption, and that boxes never grow in disproportionate or visually broken ways.
 - **Optimize information density for reading.** Adapt it to the type of information presented.
+- **Always design responsive layouts.** They must respect the single-breakpoint (`desk`) rule defined in Section 5, without inventing extra tiers.
+- **Keep all spacing symmetric.** No blank gaps that break the symmetry of the layout. Responsive reflow (Section 5) must never introduce asymmetric whitespace.
 
 ### Things to Avoid (Don'ts)
 
 - **Don't overuse background layers (`base-200`, `base-300`).** Use them only when they genuinely add value to the design. Otherwise, keep the layout minimal and consistent.
+- **Don't break the single-breakpoint rule.** Never invent extra breakpoints: reflow all layouts with the `desk` threshold (Section 5), and only there.
+- **Don't leave asymmetric spacing.** Watch especially for one-sided gaps left behind during responsive reflow (Section 5).
 - **Don't overuse colored left/top borders on containers (divs, cards, panels — not quotes) to indicate state.** Prefer other indicators such as icons, backgrounds, or badges.
 - **Don't overuse semantic colors.** Apply them with intention, always adding value and direction: guide the user visually, but never flood the interface with state colors.
 
