@@ -192,27 +192,27 @@ Each asset ships in color variants:
 
 Logo:
 
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/logo-black.png
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/logo-black.svg
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/logo-white.png
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/logo-white.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/logo-black.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/logo-black.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/logo-white.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/logo-white.svg
 
 Avatar:
 
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/avatar-dark.png
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/avatar-dark.svg
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/avatar-light.png
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/avatar-light.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/avatar-dark.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/avatar-dark.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/avatar-light.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/avatar-light.svg
 
 Icon:
 
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/icon-dark.png
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/icon-dark.svg
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/icon-light.png
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/icon-light.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/icon-dark.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/icon-dark.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/icon-light.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/icon-light.svg
 
 Favicon:
 
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/favicon.ico
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/favicon.png
-- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.3/dist/favicon.svg
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/favicon.ico
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/favicon.png
+- https://cdn.jsdelivr.net/gh/varavelio/brand@refs/tags/v1.0.4/dist/favicon.svg
